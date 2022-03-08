@@ -33,7 +33,7 @@ Server se spustí pomocí spuštění programu hinfosvc s portem pro server v ar
 
 např:
 ```
-$./hinfosvc 12345
+./hinfosvc 12345
 ```
 spustí server na portu 12345
 
@@ -47,21 +47,21 @@ Pomocí zadání adresy serveru, jejího portu a požadavku
 
 např:
 ```
-$http://localhost:12345/hostname
-$http://localhost:12345/cpu-name
-$http://localhost:12345/load
+http://localhost:12345/hostname
+http://localhost:12345/cpu-name
+http://localhost:12345/load
 ```
 funguje lokálně na zařízení kde běží server, z jiného zařízení se localhost musí nahradit IP adresou zařízení na kterém server běží
 
 #### Příkazová řádka
 
-Pomocí otevření nového terminálu a zadání příkazu curl a adresy jako u webového prohlížeče
+Pomocí otevření nového terminálu a zadání příkazu `curl` a adresy jako u webového prohlížeče
 
 např:
 ```
-$curl http://localhost:12345/hostname
-$curl http://localhost:12345/cpu-name
-$curl http://localhost:12345/load
+curl http://localhost:12345/hostname
+curl http://localhost:12345/cpu-name
+curl http://localhost:12345/load
 ```
 
 ### Vypnutí serveru
