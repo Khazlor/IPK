@@ -51,11 +51,11 @@ $http://localhost:12345/hostname
 $http://localhost:12345/cpu-name
 $http://localhost:12345/load
 ```
-funguje lokálně na serveru, z jiného zařízení se localhost musí nahradit IP adresou zařízení na kterém server běží
+funguje lokálně na zařízení kde běží server, z jiného zařízení se localhost musí nahradit IP adresou zařízení na kterém server běží
 
 #### Příkazová řádka
 
-Pomocí otevření druhého terminálu a zadání příkazu curl a adresy jako pro webovou stránku
+Pomocí otevření nového terminálu a zadání příkazu curl a adresy jako u webového prohlížeče
 
 např:
 ```
@@ -63,3 +63,7 @@ $curl http://localhost:12345/hostname
 $curl http://localhost:12345/cpu-name
 $curl http://localhost:12345/load
 ```
+
+### Vypnutí serveru
+
+Pomocí klávesové zkratky `ctrl + c` v terminálu kde server běží
