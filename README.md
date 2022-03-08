@@ -9,15 +9,15 @@ Vladimír Horák - xhorak72
 Cílem projektu bylo vytvořit lehký HTTP server s minimem závislostí spustitelný na Linux Ubuntu 20.04 LTS.
 Server je schopen zpracovat 3 příchozí požadavky:
 
-### GET http://servername:12345/hostname
+#### GET http://servername:12345/hostname
 
 Pošle zprávu obsahující síťové jméno počítače
 
-### GET http://servername:12345/cpu-name
+#### GET http://servername:12345/cpu-name
 
 Pošle zprávu obsahující informace o procesoru
 
-### GET http://servername:12345/load
+#### GET http://servername:12345/load
 
 Pošle zprávu obsahující aktuální zatížení procesoru
 
